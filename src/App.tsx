@@ -1,9 +1,14 @@
+import Header from "./Components/Header";
+import Sidenav from "./Components/Sidenav";
+import Resume from "./Pages/Resume";
 import "./Style.css";
 
 function App() {
   return (
     <div>
-      <h1>Luanda</h1>
+      <Sidenav />
+      <Header />
+      <Resume />
     </div>
   );
 }
